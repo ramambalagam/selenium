@@ -12,7 +12,7 @@ public class NewTest {
 	@Test(priority =1)
 	void openapp() {
 		driver = new ChromeDriver();
-		driver.get("https://google.com");
+		driver.get("www.github.com    	q");
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();

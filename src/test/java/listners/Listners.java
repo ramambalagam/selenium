@@ -11,6 +11,6 @@ public class Listners implements ITestListener {
 		   System.out.println(" execution started");
 		  }
 	public void onTestSuccess(ITestResult result) {
-	   System.out.println(" case is successfull");
+	   System.out.println(" execution completed");
 	  }
 }
